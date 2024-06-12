@@ -12,7 +12,6 @@ pubspec.yaml파일에 코드 추가 필요:
 dependencies:
 
   flutter:
-  
     sdk: flutter
     
   audioplayers: ^0.20.1
