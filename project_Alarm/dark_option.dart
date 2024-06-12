@@ -10,16 +10,16 @@ class DarkOption extends StatelessWidget {
         children: [
           Container(
             width: MediaQuery.of(context).size.width,
-            height: 1000,  // Adjusted height
+            height: 1000,
             color: const Color(0xFF2C2C2C),
             child: Stack(
               children: [
                 Positioned(
                   left: 0,
-                  top: 900,  // Adjusted top position
+                  top: 900,
                   child: Container(
                     width: MediaQuery.of(context).size.width,
-                    height: 80,  // Adjusted height
+                    height: 80,
                     padding: const EdgeInsets.only(top: 5),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -68,14 +68,14 @@ class DarkOption extends StatelessWidget {
                   left: 0,
                   top: 0,
                   child: SizedBox(
-                    width: 150,  // Adjusted width
-                    height: 60,  // Adjusted height
+                    width: 150,
+                    height: 60,
                     child: Text(
                       '앱 정보',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Color(0xFFFF5656),
-                        fontSize: 30,  // Adjusted font size
+                        fontSize: 30,
                         fontFamily: 'Imprima',
                       ),
                     ),
@@ -83,15 +83,15 @@ class DarkOption extends StatelessWidget {
                 ),
                 const Positioned(
                   left: 16,
-                  top: 70,  // Adjusted top position
+                  top: 70,
                   child: SizedBox(
-                    width: 350,  // Adjusted width
-                    height: 300,  // Adjusted height
+                    width: 350,
+                    height: 300,
                     child: Text(
                       '모두들 좋은 아침, 점심, 저녁, 새벽되세요\nb__b\n\n불편하신 점 꼭 편하시게 연락해주세요\n얼른 고치겠습니다~!\n      ㅇ\n     /ㅣ\\n      ㅅ\n     /    \\n\n',
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 20,  // Adjusted font size
+                        fontSize: 20,
                         fontFamily: 'Imprima',
                       ),
                     ),
@@ -99,10 +99,10 @@ class DarkOption extends StatelessWidget {
                 ),
                 Positioned(
                   left: 20,
-                  top: 400,  // Adjusted top position
+                  top: 400,
                   child: Container(
-                    width: 350,  // Adjusted width
-                    height: 100,  // Adjusted height
+                    width: 350,
+                    height: 100,
                     decoration: ShapeDecoration(
                       color: Color(0xFF957F7F),
                       shape: RoundedRectangleBorder(
@@ -115,7 +115,7 @@ class DarkOption extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Colors.black,
-                          fontSize: 20,  // Adjusted font size
+                          fontSize: 20,
                           fontFamily: 'Inconsolata',
                         ),
                       ),
